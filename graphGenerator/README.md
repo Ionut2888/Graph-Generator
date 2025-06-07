@@ -153,9 +153,3 @@ graphs:
 
 - You can specify multiple y_columns for the same graph to compare multiple series.
 - The script will automatically create the `output/` directory if it doesn't exist.
-
-## Author
-Your Name
-
-## License
-MIT
