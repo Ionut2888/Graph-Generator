@@ -1,0 +1,31 @@
+graphs:
+  - title: "Line Chart"
+    x_column: "Date"
+    y_columns: ["Sales"]
+    kind: "line"
+    output_file: "output/line.png"
+
+  - title: "Plot with Markers"
+    x_column: "Date"
+    y_columns: ["Profit"]
+    kind: "plot"
+    output_file: "output/plot.png"
+
+  - title: "Scatter Plot"
+    x_column: "Revenue"
+    y_columns: ["Profit"]
+    kind: "scatter"
+    output_file: "output/scatter.png"
+
+  - title: "Bar Chart"
+    x_column: "Date"
+    y_columns: ["Revenue"]
+    kind: "bar"
+    output_file: "output/bar.png"
+
+  - title: "Fibonacci Sequence: Proof Size"
+    x_column: "Length"
+    y_columns: ["Plonk", "Groth16", "Stark"]
+    y_label: "Proof Size (KB)"
+    kind: "plot"
+    output_file: "output/fib_proof_size.png"
